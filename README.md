@@ -1,2 +1,2 @@
 # True-Sun-DC
-Sistema financiero para optimización de ingrese y egresos para escuelas 
+Proyecto final del curso Vibe Coding for good sobre sistema financiero para optimización de ingresos y egresos para escuelas 
