@@ -1,0 +1,47 @@
+/* Load from Streamlit with: st.markdown("<style>" + css + "</style>", unsafe_allow_html=True) */
+:root {
+	--impact-green: #168a72;
+	--impact-ink: #18332d;
+	--impact-muted: #61766f;
+	--impact-background: #f3f8f5;
+	--impact-card: #fff;
+}
+
+.stApp {
+	background: var(--impact-background);
+	color: var(--impact-ink);
+}
+
+[data-testid="stHeader"] {
+	background: transparent;
+}
+
+[data-testid="stMetric"] {
+	padding: 1rem;
+	border: 1px solid #deebe5;
+	border-radius: 14px;
+	background: var(--impact-card);
+	box-shadow: 0 4px 16px rgb(24 51 45 / 5%);
+}
+
+[data-testid="stMetricLabel"] {
+	color: var(--impact-muted);
+}
+
+[data-testid="stMetricValue"] {
+	color: var(--impact-green);
+	font-weight: 700;
+}
+
+.stButton > button {
+	border: 0;
+	border-radius: 10px;
+	background: var(--impact-green);
+	color: #fff;
+	font-weight: 600;
+}
+
+.stButton > button:hover {
+	filter: brightness(.92);
+}
+ 
